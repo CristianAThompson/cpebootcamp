@@ -46,7 +46,7 @@ const weeks = {
         booking_count: 2
     },
     15: {
-        booking_count: 1
+        booking_count: 2
     },
     16: {
         booking_count: 2
