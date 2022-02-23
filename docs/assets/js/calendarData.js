@@ -27,7 +27,7 @@ const weeks = {
     },
     //  March
     9: {
-        booking_count: 1
+        booking_count: 2
     },
     10: {
         booking_count: 2
@@ -75,10 +75,10 @@ const weeks = {
         booking_count: 2
     },
     24: {
-        booking_count: 1
+        booking_count: 2
     },
     25: {
-        booking_count: 0
+        booking_count: 1
     },
     26: {
         booking_count: 0
