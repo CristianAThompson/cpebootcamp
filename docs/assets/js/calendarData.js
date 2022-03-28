@@ -91,7 +91,7 @@ const weeks = {
         booking_count: 2
     },
     29: {
-        booking_count: 0
+        booking_count: 2
     },
     30: {
         booking_count: 0
@@ -110,7 +110,7 @@ const weeks = {
         booking_count: 2
     },
     35: {
-        booking_count: 0
+        booking_count: 2
     },
     // September
     36: {
