@@ -98,7 +98,7 @@ const weeks = {
     },
     // August
     31: {
-        booking_count: 1
+        booking_count: 2
     },
     32: {
         booking_count: 0
