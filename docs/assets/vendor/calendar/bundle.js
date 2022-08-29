@@ -750,10 +750,15 @@
                  * {PATCH}
                  * Set color based on booking count
                  */
-                boxShadow += "inset 0 -".concat((i + 1) * weight, "px 0 0 ").concat(events[i].color);
+                // boxShadow += "inset 0 -".concat((i + 1) * weight, "px 0 0 ").concat(events[i].color);
+                if (events[i].comprehensive) {
+                  return parent.style.backgroundColor = events[i].color;
+                }
+                boxShadow += `linear-gradient(0deg, transparent 0%, ${events[i].color} 0%, transparent 25%, ${events[i].color} 25%, transparent 50%, ${events[i].color} 50%, transparent 75%, ${events[i].color} 75%, transparent, ${events[i].color})`;
               }
 
-              parent.style.boxShadow = boxShadow;
+              // parent.style.boxShadow = boxShadow;
+              parent.style.background = boxShadow;
             }
 
             break;

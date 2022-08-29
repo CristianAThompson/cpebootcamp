@@ -1527,3 +1527,19 @@ section {
     width: 100% !important;
     height: 100% !important;
 }
+
+/*--------------------------------------------------------------
+# Misc
+--------------------------------------------------------------*/
+
+.surgery-week-accomodation {
+  background: linear-gradient(0deg,transparent 0%, #18d26e 0%, transparent 25%, #18d26e 25%, transparent 50%, #18d26e 50%, transparent 75%, #18d26e 75%, transparent 100%, #18d26e 100%)
+}
+
+.surgery-week-no-accomodation {
+  background: linear-gradient(0deg,transparent 0%, #ffc334 0%, transparent 25%, #ffc334 25%, transparent 50%, #ffc334 50%, transparent 75%, #ffc334 75%, transparent 100%, #ffc334 100%)
+}
+
+.surgery-week-full {
+  background: linear-gradient(0deg,transparent 0%, #f00 0%, transparent 25%, #f00 25%, transparent 50%, #f00 50%, transparent 75%, #f00 75%, transparent 100%, #f00 100%)
+}
