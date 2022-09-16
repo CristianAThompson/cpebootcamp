@@ -157,16 +157,16 @@ const weeks2022 = {
         comprehensive: true
     },
     38: {
-        booking_count: 1,
+        booking_count: 2,
         comprehensive: true
     },
     39: {
-        booking_count: 1,
+        booking_count: 2,
         comprehensive: true
     },
     // October
     40: {
-        booking_count: 1,
+        booking_count: 0,
         comprehensive: true
     },
     41: {
@@ -183,32 +183,32 @@ const weeks2022 = {
     },
     // November
     44: {
-        booking_count: 1,
+        booking_count: 0,
         comprehensive: true
     },
     45: {
-        booking_count: 1,
+        booking_count: 0,
         comprehensive: true
     },
     46: {
-        booking_count: 1,
+        booking_count: 0,
         comprehensive: true
     },
     47: {
-        booking_count: 1,
+        booking_count: 0,
         comprehensive: true
     },
     48: {
-        booking_count: 1,
+        booking_count: 0,
         comprehensive: false
     },
     // December
     49: {
-        booking_count: 1,
+        booking_count: 0,
         comprehensive: true
     },
     50: {
-        booking_count: 1,
+        booking_count: 0,
         comprehensive: true
     },
     51: {
@@ -224,11 +224,11 @@ const weeks2022 = {
 const weeks2023 = {
     // January
     1: {
-        booking_count: 1,
+        booking_count: 0,
         comprehensive: true
     },
     2: {
-        booking_count: 1,
+        booking_count: 2,
         comprehensive: false
     },
     3: {
@@ -253,7 +253,7 @@ const weeks2023 = {
         comprehensive: false
     },
     8: {
-        booking_count: 1,
+        booking_count: 0,
         comprehensive: true
     },
     9: {
@@ -339,11 +339,11 @@ const weeks2023 = {
     },
     28: {
         booking_count: 0,
-        comprehensive: false
+        comprehensive: true
     },
     29: {
         booking_count: 0,
-        comprehensive: true
+        comprehensive: false
     },
     30: {
         booking_count: 2,
@@ -394,11 +394,11 @@ const weeks2023 = {
     },
     41: {
         booking_count: 0,
-        comprehensive: false
+        comprehensive: true
     },
     42: {
         booking_count: 0,
-        comprehensive: true
+        comprehensive: false
     },
     43: {
         booking_count: 2,
