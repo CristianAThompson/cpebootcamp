@@ -166,7 +166,7 @@ const weeks2022 = {
     },
     // October
     40: {
-        booking_count: 0,
+        booking_count: 2,
         comprehensive: true
     },
     41: {
@@ -249,7 +249,7 @@ const weeks2023 = {
         comprehensive: true
     },
     7: {
-        booking_count: 0,
+        booking_count: 2,
         comprehensive: false
     },
     8: {
