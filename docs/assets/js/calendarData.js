@@ -183,32 +183,32 @@ const weeks2022 = {
     },
     // November
     44: {
-        booking_count: 0,
+        booking_count: 2,
         comprehensive: true
     },
     45: {
-        booking_count: 0,
+        booking_count: 2,
         comprehensive: true
     },
     46: {
-        booking_count: 0,
+        booking_count: 2,
         comprehensive: true
     },
     47: {
-        booking_count: 0,
+        booking_count: 2,
         comprehensive: true
     },
     48: {
-        booking_count: 0,
+        booking_count: 2,
         comprehensive: false
     },
     // December
     49: {
-        booking_count: 0,
+        booking_count: 2,
         comprehensive: true
     },
     50: {
-        booking_count: 0,
+        booking_count: 2,
         comprehensive: true
     },
     51: {
@@ -232,7 +232,7 @@ const weeks2023 = {
         comprehensive: false
     },
     3: {
-        booking_count: 0,
+        booking_count: 2,
         comprehensive: true
     },
     4: {
@@ -245,7 +245,7 @@ const weeks2023 = {
     },
     // February
     6: {
-        booking_count: 0,
+        booking_count: 2,
         comprehensive: true
     },
     7: {
@@ -253,7 +253,7 @@ const weeks2023 = {
         comprehensive: false
     },
     8: {
-        booking_count: 0,
+        booking_count: 2,
         comprehensive: true
     },
     9: {
@@ -266,11 +266,11 @@ const weeks2023 = {
         comprehensive: true
     },
     11: {
-        booking_count: 0,
+        booking_count: 2,
         comprehensive: false
     },
     12: {
-        booking_count: 0,
+        booking_count: 2,
         comprehensive: true
     },
     13: {
@@ -317,7 +317,7 @@ const weeks2023 = {
     },
     // June
     23: {
-        booking_count: 0,
+        booking_count: 2,
         comprehensive: true
     },
     24: {
