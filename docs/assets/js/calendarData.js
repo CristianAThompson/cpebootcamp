@@ -224,7 +224,7 @@ const weeks2022 = {
 const weeks2023 = {
     // January
     1: {
-        booking_count: 0,
+        booking_count: 2,
         comprehensive: true
     },
     2: {
