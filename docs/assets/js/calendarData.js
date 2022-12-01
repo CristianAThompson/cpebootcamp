@@ -291,7 +291,7 @@ const weeks2023 = {
         comprehensive: true
     },
     17: {
-        booking_count: 0,
+        booking_count: 2,
         comprehensive: false
     },
     // May
@@ -334,7 +334,7 @@ const weeks2023 = {
     },
     // July
     27: {
-        booking_count: 0,
+        booking_count: 2,
         comprehensive: true
     },
     28: {
@@ -346,7 +346,7 @@ const weeks2023 = {
         comprehensive: false
     },
     30: {
-        booking_count: 2,
+        booking_count: 0,
         comprehensive: true
     },
     31: {
