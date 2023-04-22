@@ -94,7 +94,7 @@ const weeks2023 = {
     },
     // June
     23: {
-        booking_count: 2,
+        booking_count: 0,
         comprehensive: true
     },
     24: {
