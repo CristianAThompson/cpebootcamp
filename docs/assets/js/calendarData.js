@@ -153,7 +153,7 @@ const weeks2023 = {
         comprehensive: true
     },
     37: {
-        booking_count: 2,
+        booking_count: 0,
         comprehensive: false
     },
     38: {
