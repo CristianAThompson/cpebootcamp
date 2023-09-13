@@ -191,7 +191,7 @@ const weeks2023 = {
         comprehensive: true
     },
     46: {
-        booking_count: 2,
+        booking_count: 0,
         comprehensive: false
     },
     47: {
@@ -199,7 +199,7 @@ const weeks2023 = {
         comprehensive: true
     },
     48: {
-        booking_count: 0,
+        booking_count: 2,
         comprehensive: true
     },
     // December
