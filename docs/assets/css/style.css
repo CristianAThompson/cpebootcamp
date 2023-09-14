@@ -1544,3 +1544,44 @@ section {
 .surgery-week-full {
   background: linear-gradient(0deg,transparent 0%, #f00 0%, transparent 25%, #f00 25%, transparent 50%, #f00 50%, transparent 75%, #f00 75%, transparent 100%, #f00 100%)
 }
+
+.observer-available {
+  border-style: dashed;
+  border-color: rgb(0, 161, 255);
+  border-width: 5px 0px 5px 0px !important;
+  z-index: 10;
+  position: absolute;
+  width: 100%;
+  height: 42px;
+  top: 0;
+  left: 0;
+}
+
+.observer-block {
+  position: absolute;
+  width: 25%;
+  height: 42px;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.observer-text {
+  position: absolute;
+  width: 100%;
+  height: 100;
+  top: 2.5px;
+  left: 0;
+  z-index: 10;
+}
+
+
+/*--------------------------------------------------------------
+# Calendar
+--------------------------------------------------------------*/
+
+
+.calendar table {
+  border-spacing: 0px 6px !important;
+  border-collapse: separate !important;
+}
