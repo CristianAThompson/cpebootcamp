@@ -2,222 +2,274 @@ const weeks2023 = {
     // January
     1: {
         booking_count: 2,
-        comprehensive: true
+        comprehensive: true,
+        observers: 2
     },
     2: {
         booking_count: 2,
-        comprehensive: false
+        comprehensive: false,
+        observers: 2
     },
     3: {
         booking_count: 2,
-        comprehensive: true
+        comprehensive: true,
+        observers: 2
     },
     4: {
         booking_count: 2,
-        comprehensive: true
+        comprehensive: true,
+        observers: 2
     },
     5: {
         booking_count: 2,
-        comprehensive: true
+        comprehensive: true,
+        observers: 2
     },
     // February
     6: {
         booking_count: 2,
-        comprehensive: true
+        comprehensive: true,
+        observers: 2
     },
     7: {
         booking_count: 2,
-        comprehensive: false
+        comprehensive: false,
+        observers: 2
     },
     8: {
         booking_count: 2,
-        comprehensive: true
+        comprehensive: true,
+        observers: 2
     },
     9: {
         booking_count: 2,
-        comprehensive: true
+        comprehensive: true,
+        observers: 2
     },
     //  March
     10: {
         booking_count: 2,
-        comprehensive: true
+        comprehensive: true,
+        observers: 2
     },
     11: {
         booking_count: 2,
-        comprehensive: false
+        comprehensive: false,
+        observers: 2
     },
     12: {
         booking_count: 2,
-        comprehensive: true
+        comprehensive: true,
+        observers: 2
     },
     13: {
         booking_count: 2,
-        comprehensive: true
+        comprehensive: true,
+        observers: 2
     },
     // April
     14: {
         booking_count: 2,
-        comprehensive: true
+        comprehensive: true,
+        observers: 2
     },
     15: {
         booking_count: 2,
-        comprehensive: true
+        comprehensive: true,
+        observers: 2
     },
     16: {
         booking_count: 2,
-        comprehensive: true
+        comprehensive: true,
+        observers: 2
     },
     17: {
         booking_count: 2,
-        comprehensive: false
+        comprehensive: false,
+        observers: 2
     },
     // May
     18: {
         booking_count: 2,
-        comprehensive: true
+        comprehensive: true,
+        observers: 2
     },
     19: {
         booking_count: 2,
-        comprehensive: true
+        comprehensive: true,
+        observers: 2
     },
     20: {
         booking_count: 2,
-        comprehensive: true
+        comprehensive: true,
+        observers: 2
     },
     21: {
         booking_count: 2,
-        comprehensive: true
+        comprehensive: true,
+        observers: 2
     },
     22: {
         booking_count: 2,
-        comprehensive: true
+        comprehensive: true,
+        observers: 2
     },
     // June
     23: {
         booking_count: 2,
-        comprehensive: true
+        comprehensive: true,
+        observers: 2
     },
     24: {
         booking_count: 2,
-        comprehensive: false
+        comprehensive: false,
+        observers: 2
     },
     25: {
         booking_count: 2,
-        comprehensive: true
+        comprehensive: true,
+        observers: 2
     },
     26: {
         booking_count: 2,
-        comprehensive: true
+        comprehensive: true,
+        observers: 2
     },
     // July
     27: {
         booking_count: 2,
-        comprehensive: true
+        comprehensive: true,
+        observers: 2
     },
     28: {
         booking_count: 2,
-        comprehensive: true
+        comprehensive: true,
+        observers: 2
     },
     29: {
         booking_count: 2,
-        comprehensive: false
+        comprehensive: false,
+        observers: 2
     },
     30: {
         booking_count: 2,
-        comprehensive: true
+        comprehensive: true,
+        observers: 2
     },
     31: {
         booking_count: 2,
-        comprehensive: true
+        comprehensive: true,
+        observers: 2
     },
     // August
     32: {
         booking_count: 2,
-        comprehensive: true
+        comprehensive: true,
+        observers: 2
     },
     33: {
         booking_count: 2,
-        comprehensive: false
+        comprehensive: false,
+        observers: 2
     },
     34: {
         booking_count: 2,
-        comprehensive: true
+        comprehensive: true,
+        observers: 2
     },
     35: {
         booking_count: 2,
-        comprehensive: true
+        comprehensive: true,
+        observers: 2
     },
     // September
     36: {
         booking_count: 2,
-        comprehensive: true
+        comprehensive: true,
+        observers: 2
     },
     37: {
         booking_count: 2,
-        comprehensive: false
+        comprehensive: false,
+        observers: 2
     },
     38: {
         booking_count: 2,
-        comprehensive: true
+        comprehensive: true,
+        observers: 0
     },
     39: {
         booking_count: 2,
-        comprehensive: true
+        comprehensive: true,
+        observers: 2
     },
     // October
     40: {
         booking_count: 2,
-        comprehensive: true
+        comprehensive: true,
+        observers: 2
     },
     41: {
         booking_count: 2,
-        comprehensive: true
+        comprehensive: true,
+        observers: 0
     },
     42: {
         booking_count: 2,
-        comprehensive: false
+        comprehensive: false,
+        observers: 0
     },
     43: {
         booking_count: 2,
-        comprehensive: true
+        comprehensive: true,
+        observers: 2
     },
     44: {
         booking_count: 2,
-        comprehensive: true
+        comprehensive: true,
+        observers: 2
     },
     // November
     45: {
         booking_count: 2,
-        comprehensive: true
+        comprehensive: true,
+        observers: 2
     },
     46: {
         booking_count: 0,
-        comprehensive: false
+        comprehensive: false,
+        observers: 0
     },
     47: {
         booking_count: 2,
-        comprehensive: true
+        comprehensive: true,
+        observers: 0
     },
     48: {
         booking_count: 2,
-        comprehensive: true
+        comprehensive: true,
+        observers: 2
     },
     // December
     49: {
         booking_count: 2,
-        comprehensive: true
+        comprehensive: true,
+        observers: 0
     },
     50: {
         booking_count: 0,
-        comprehensive: true
+        comprehensive: true,
+        observers: 0
     },
     51: {
         booking_count: 2,
-        comprehensive: true
+        comprehensive: true,
+        observers: 2
     },
     52: {
         booking_count: 2,
-        comprehensive: true
+        comprehensive: true,
+        observers: 2
     },
 };
 
@@ -279,13 +331,34 @@ function firstWeekday(firstOfJanuaryDate) {
     return new Date(firstOfJanuaryDate.getTime()+dayOffset*24*60*60*1000);
 }
 
-const constructEventData = (date, booking_count, comprehensive) => {
+const constructEventData = (date, booking_count, comprehensive, observers) => {
+    // Construct Observer Color For Visibility based on Comprehensive VS Surgery
+    let observerColor = '';
+    if (observers == 0) {
+        if (comprehensive && booking_count == 0) {
+            observerColor = 'rgb(0, 161, 255)';
+        } else if (comprehensive && booking_count == 2) {
+            observerColor = 'rgb(0, 161, 255)';
+        } else {
+            observerColor = 'rgb(0, 161, 255)';
+        }
+    }
+
+    let color = '';
+    if (booking_count == 0) {
+        color = '#198754';
+    } else if (booking_count == 1) {
+        color = '#ffc334';
+    } else if (booking_count == 2) {
+        color = '#dc3545';
+    }
     const eventData = {
         id: date,
         startDate: date,
         endDate: date,
         name: 'Event',
-        color: booking_count == 0 ? '#18d26e' : booking_count == 1 ? '#ffc334' : booking_count == 2 ? '#f00' : '',
+        color,
+        observerColor,
         comprehensive: comprehensive,
     };
     return eventData;
@@ -296,12 +369,11 @@ const processYear = (weeks, currentYear) => {
         const week = weeks[weekNumber];
         const firstDayForCurrentWeek = new Date(firstDayOfWeek(weekNumber, currentYear));
         const dayToModify = new Date(firstDayForCurrentWeek);
-        window.calendarData.push(constructEventData(firstDayForCurrentWeek, weeks[weekNumber].booking_count, weeks[weekNumber].comprehensive));
-        comprehensive: true
+        window.calendarData.push(constructEventData(firstDayForCurrentWeek, weeks[weekNumber].booking_count, weeks[weekNumber].comprehensive, weeks[weekNumber].observers));
         // Iterate for an additional 4 days to generate date data object for the entire week
         for (let i = 1; i < 5; i++) {
             let nextDayForCurrentWeek = new Date(dayToModify.setDate(dayToModify.getDate() + 1));
-            window.calendarData.push(constructEventData(nextDayForCurrentWeek, weeks[weekNumber].booking_count, weeks[weekNumber].comprehensive));
+            window.calendarData.push(constructEventData(nextDayForCurrentWeek, weeks[weekNumber].booking_count, weeks[weekNumber].comprehensive, weeks[weekNumber].observers));
         }
     }
 };
