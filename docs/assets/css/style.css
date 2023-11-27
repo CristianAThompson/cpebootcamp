@@ -1575,6 +1575,19 @@ section {
   z-index: 10;
 }
 
+.temporary-offer {
+  position: absolute;
+  top: 30%;
+  transform: rotate(-20deg);
+  left: -2.5%;
+  opacity: 0.25;
+  background-color: rgba(221, 52, 52, 0.39);
+  border-radius: 10px;
+  padding: 3px 5px;
+  color: black;
+  font-size: xx-large;
+}
+
 
 /*--------------------------------------------------------------
 # Calendar
