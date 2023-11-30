@@ -662,6 +662,7 @@ const processYear = (weeks, currentYear) => {
     processYear(weeks2023, 2023);
     processYear(weeks2024, 2024);
     new Calendar('.calendar', {
+        startYear: 2024,
         dataSource: window.calendarData
     });
 })();
