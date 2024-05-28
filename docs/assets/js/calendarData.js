@@ -127,7 +127,7 @@ const weeks2024 = {
     },
     25: {
         booking_count: 2,
-        comprehensive: true,
+        comprehensive: false,
         observers: 2
     },
     26: {
@@ -148,7 +148,7 @@ const weeks2024 = {
     },
     29: {
         booking_count: 2,
-        comprehensive: true,
+        comprehensive: false,
         observers: 2
     },
     30: {
@@ -169,7 +169,7 @@ const weeks2024 = {
     },
     33: {
         booking_count: 2,
-        comprehensive: true,
+        comprehensive: false,
         observers: 2
     },
     34: {
@@ -195,7 +195,7 @@ const weeks2024 = {
     },
     38: {
         booking_count: 2,
-        comprehensive: true,
+        comprehensive: false,
         observers: 2
     },
     39: {
@@ -216,7 +216,7 @@ const weeks2024 = {
     },
     42: {
         booking_count: 2,
-        comprehensive: true,
+        comprehensive: false,
         observers: 2
     },
     43: {
@@ -237,7 +237,7 @@ const weeks2024 = {
     },
     46: {
         booking_count: 2,
-        comprehensive: true,
+        comprehensive: false,
         observers: 2
     },
     47: {
@@ -258,7 +258,7 @@ const weeks2024 = {
     },
     50: {
         booking_count: 2,
-        comprehensive: true,
+        comprehensive: false,
         observers: 2
     },
     51: {
