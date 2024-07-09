@@ -220,7 +220,7 @@ const weeks2024 = {
         observers: 2
     },
     43: {
-        booking_count: 0,
+        booking_count: 2,
         comprehensive: true,
         observers: 0
     },
