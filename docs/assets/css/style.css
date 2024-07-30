@@ -1124,16 +1124,30 @@ section {
 
 .pricing .featured h3 {
   color: #fff;
+  background: #AEBF52;
+}
+
+.pricing .in-person h3 {
   background: #003a67;
 }
 
 .pricing .featured .btn-buy {
+  background: #AEBF52;
+  color: #fff;
+  border: 2px solid #AEBF52;
+}
+
+.pricing .featured .btn-buy:hover {
+  background: #525a26;
+}
+
+.pricing .in-person .btn-buy {
   background: #003a67;
   color: #fff;
   border: 2px solid #003a67;
 }
 
-.pricing .featured .btn-buy:hover {
+.pricing .in-person .btn-buy:hover {
   background: #38576f;
 }
 
