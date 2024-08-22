@@ -252,7 +252,7 @@ const weeks2024 = {
     },
     // December
     49: {
-        booking_count: 0,
+        booking_count: 2,
         comprehensive: true,
         observers: 0
     },
@@ -262,7 +262,7 @@ const weeks2024 = {
         observers: 2
     },
     51: {
-        booking_count: 0,
+        booking_count: 2,
         comprehensive: true,
         observers: 0
     },
