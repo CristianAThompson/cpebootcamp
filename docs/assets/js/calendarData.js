@@ -225,13 +225,13 @@ const weeks2024 = {
         observers: 0
     },
     44: {
-        booking_count: 0,
+        booking_count: 2,
         comprehensive: true,
         observers: 0
     },
     // November
     45: {
-        booking_count: 0,
+        booking_count: 2,
         comprehensive: true,
         observers: 0
     },
