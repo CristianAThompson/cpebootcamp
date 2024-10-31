@@ -64,7 +64,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header.header-transparent {
-  background: transparent;
+  background: rgba(55, 64, 85, 0.9);
 }
 
 #header.header-scrolled {
@@ -88,6 +88,47 @@ h1, h2, h3, h4, h5, h6 {
 
 #header .logo img {
   max-height: 40px;
+}
+
+#banner {
+  width: 100%;
+  margin-top: 81px;
+  background: rgba(55, 64, 85, 0.9);
+  padding-left: 35px;
+  padding-right: 35px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+#banner .banner-content {
+  width: 100%;
+  display: block;
+} 
+
+  /* HTML: <div class="ribbon">Your text content</div> */
+.banner-content .ribbon {
+  font-size: 28px;
+  font-weight: bold;
+  color: #fff;
+
+  --s: 1.8em; /* the ribbon size */
+  --d: 15px;  /* the depth */
+  --c: 20px;  /* the cutout part */
+  
+  padding: 0 calc(var(--s) + .5em) var(--d);
+  line-height: 1.8;
+  background:
+    conic-gradient(at left  var(--s) bottom var(--d),
+     #0000 25%,#0008 0 37.5%,#0004 0) 0   /50% 100% no-repeat,
+    conic-gradient(at right var(--s) bottom var(--d),
+     #0004 62.5%,#0008 0 75%,#0000 0) 100%/50% 100% no-repeat;
+  clip-path: polygon(0 var(--d), var(--s) var(--d),var(--s) 0,calc(100% - var(--s)) 0,calc(100% - var(--s)) var(--d),100% var(--d),calc(100% - var(--c)) calc(50% + var(--d)/2),100% 100%,calc(100% - var(--s) - var(--d)) 100%,calc(100% - var(--s) - var(--d)) calc(100% - var(--d)),calc(var(--s) + var(--d)) calc(100% - var(--d)),calc(var(--s) + var(--d)) 100%,0 100%,var(--c) calc(50% + var(--d)/2));
+  background-color: #CC333F; /* the main color */
+  width: fit-content;
+}
+
+.ribbon h4 {
+  padding: 15px 35px;
 }
 
 /*--------------------------------------------------------------
