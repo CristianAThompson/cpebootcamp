@@ -249,4 +249,46 @@
     }
   });
 
+  /**
+   * Countdown Timer for new content and pricing drop
+   */
+  window.addEventListener('load', () => {
+    const countdownElem = document.getElementById('countdown');
+
+    const releaseDate = new Date('2024/12/11 12:00');
+
+    const difference2Parts = (milliseconds) => {
+      const secs = Math.floor(Math.abs(milliseconds) / 1000);
+      const mins = Math.floor(secs / 60);
+      const hours = Math.floor(mins / 60);
+      const days = Math.floor(hours / 24);
+      const multiple = (term, n) => n !== 1 ? `${n} ${term}s` : `1 ${term}`;
+
+      return {
+        days: days,
+        hours: hours % 24,
+        hoursTotal: hours,
+        minutesTotal: mins,
+        minutes: mins % 60,
+        seconds: secs % 60,
+        secondsTotal: secs,
+        get diffStr() {
+          return `${multiple(`day`, this.days)}, ${
+            multiple(`hour`, this.hours)}, ${
+            multiple(`minute`, this.minutes)} and ${
+            multiple(`second`, this.seconds)}`;
+        },
+      };
+    }
+
+    const diff = () => {
+      const diffs = difference2Parts(releaseDate - new Date());
+      countdownElem.innerHTML = `${
+        diffs.diffStr.replace(/(\d+)/g, a => `<b>${a}</b>`)}`;
+      setTimeout(diff, 200);
+    };
+    
+    diff();
+  });
+
 })()
